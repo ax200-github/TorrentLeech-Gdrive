@@ -84,7 +84,7 @@ class Config(object):
                 shutil.rmtree(tmp_heroku_git_path)
             break
 
-LOGGER.info("Checking REPO...")
+#LOGGER.info("Checking REPO...")
 try:
     _REPO = Repo()
 except InvalidGitRepositoryError:
