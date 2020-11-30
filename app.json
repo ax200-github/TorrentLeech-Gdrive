@@ -36,7 +36,7 @@
     },
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
-      "value": "-1001246561893"
+      "value": "1001246561893"
     },
     "CHUNK_SIZE": {
       "description": "should be an integer",
