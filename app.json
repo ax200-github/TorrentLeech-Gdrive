@@ -24,19 +24,19 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "2187474"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "54579339e0189e7df0e7683cbfd37ec1"
     },
     "TG_BOT_TOKEN": {
       "description": "get this value from @BotFather",
-      "value": ""
+      "value": "1474145185:AAE-KywySYDmcw-rpq8dLQ4FaZ7XOxdmREU"
     },
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
-      "value": ""
+      "value": "-1001246561893"
     },
     "CHUNK_SIZE": {
       "description": "should be an integer",
@@ -92,10 +92,19 @@
     "RCLONE_CONFIG": {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
+      "value": "type = drive
+scope = drive
+root_folder_id = 0AHrjjG9mGy8EUk9PVA
+token = {"access_token":"ya29.a0AfH6SMDRDXG2uAtQeT3Kf0NoUbNymvoFZaBnam-YHzq4vmW2
+IygKhM_dydoA4Xfuhild8pyE07IwCaP5RV9McQASo93CcrwT2MpvwpKIKRKCd6H90zyN0o6CLOoPem6J
+Cbzzw1yyMEDFZc9GLiE8A2GJ19g8QIDuYNCOVrRferU","token_type":"Bearer","refresh_toke
+n":"1//0g_OKwnZTMUmyCgYIARAAGBASNwF-L9IrugKCXxlshnixMr44tJBdzcO5sQ-xaMsYQ0LQNTA-
+v0cIbkQ6S8_W8FgktqF20LrLXFE","expiry":"2020-11-30T14:08:30.1885429+05:30"}"
     },
     "DESTINATION_FOLDER": {
       "description": "Enter your Destination folder in which you want to upload yoyr file.",
       "required": false
+      "value": "0AHrjjG9mGy8EUk9PVA"
     },
     "CUSTOM_FILE_NAME": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
